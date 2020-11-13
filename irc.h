@@ -17,7 +17,7 @@ typedef struct __IRC{
     char *addr; // address used to connect
     uint16_t port; // port used to connect
 
-    char *username; // username used the bot
+    char *username; // username used by the bot
 
     int fd;   // connection file descriptor
     FILE *fl; // connection file pointer
